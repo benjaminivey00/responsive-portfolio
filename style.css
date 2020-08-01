@@ -1,0 +1,46 @@
+.container{
+flex-wrap: wrap;
+background-color: lightblue;
+height: 500px;
+width: 75%;
+margin: 150px auto;
+}
+
+.img-responsive{
+    float: left;
+    padding: 0 10px 0 0;
+    height: 200px;
+    width: 200px;
+}
+
+.text-about{
+    
+    float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+      height: 1500px;
+    }
+  }
+
+@media only screen and (max-width: 760px) {
+    .container {
+      height: 1500px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .container {
+      height: 1500px;
+    }
+  }
+  
+    @media only screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+
+  
